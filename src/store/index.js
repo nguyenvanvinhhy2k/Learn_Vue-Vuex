@@ -64,7 +64,7 @@ export default createStore({
         () => {
           commit("emptyCart");
           commit("setCheckoutStatus", "success");
-          alert("Thanh conf");
+          alert("Thanh cong");
         },
         () => {
           commit("setCheckoutStatus", "fail");
